@@ -1,0 +1,372 @@
+/*edition DANIEL*/
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow+Condensed:ital,wght@1,300&family=DM+Serif+Text:ital@1&family=Oleo+Script&family=Rambla&family=Sansita+Swashed:wght@300&family=Unica+One&display=swap');
+
+.videogallery{
+  border:5px outset #033e69;
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.videogallery iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%
+}
+.video{
+  width: 70%;
+  max-width: 800px;
+}
+.espacio{
+  padding: 15px;
+}
+.minicontainer{
+  background: #525252;
+  padding: 15px;
+  width: 80%;
+  max-width: 800px;
+  font-size: 30px;
+  line-height: 1.5px;
+  /*box-shadow: 1px 5px 25px rgba(0,0,0,0.45); 
+  border-radius: 5px ;*/
+  overflow: hidden;
+  margin: 5px;
+  border: 5px outset #000000;
+  vertical-align: middle;
+  display:flex;
+}
+.miniimagen{
+  width: 50%;
+  padding: 10px;
+  float: left;
+
+  
+}         /*minicontainer,miniimagen, textomini falta reposivos los 3*/
+.textomini{
+  font-size: 15px;
+  line-height: 30px;
+  width: 50%;
+  float:left;
+  color: #fff;
+}
+.subtit{
+  text-align: center;
+  padding:0px;
+  font-family: 'Unica One', cursive;
+  font-size: 30px;
+  color: red;
+  line-height: 30px;
+}
+.containermod1{
+  margin: 5px;
+  padding: 30px;
+  padding-bottom: 30px;
+  display: inline-table;
+  width: 80%;
+  max-width: 800px;
+  font-size: 30px;
+  /*line-height: 1.5px;*/
+  box-shadow: 1px 5px 25px rgba(0,0,0,0.45); 
+  border-radius: 5px ;
+  margin: 5px;
+  border: 5px outset #033e69;
+}
+.containermod3{
+  margin: 5px;
+  padding: 20px;
+  padding-bottom: 30px;
+  display: inline-table;
+  width: 80%;
+  max-width: 1000px;
+  font-size: 30px;
+  margin: 5px;
+  /*line-height: 1.5px;
+  box-shadow: 1px 5px 25px rgba(0,0,0,0.45); 
+  border-radius: 5px ;
+  
+  /*border: 5px outset #0e51ab;*/
+}
+.textomini1{
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  color: #000;
+}
+.caja2{
+  margin: 5px;
+  padding: auto;
+  width: 100%;
+  display: flex;
+}
+div.gallery{
+  margin: 5px;
+  border: 2px outset #ccc;
+  float: left;
+  width: 33.3%;
+}
+div.gallery:hover{
+  border:2px outset #322266;
+  animation: 1s ms 1;
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+div.gallerymod1{
+  width: 80%;
+  max-width: 400px;
+
+}
+div.gallerymod1:hover{
+  animation: 1s ms 1;
+}
+div.gallerymod1 img{
+  width: 100%;
+  height: auto;
+}
+.containermod2{
+  margin: 5px;
+  padding: 30px;
+  
+  display: inline-table;
+  width: 80%;
+  max-width: 800px;
+  font-size: 30px;
+  border-radius: 5px ;
+  margin: 5px;
+}
+.tigo{
+  margin: 5px;
+  padding: 30px;
+  padding-bottom: 30px;
+  display: inline-table;
+  width: 100%;
+  max-width: 450px;
+  font-size: 30px;
+  border-radius: 5px ;
+  margin: 5px;
+}
+.containerwhatsapp{
+  margin: 5px;
+  padding: 20px;
+  padding-bottom: 20px;
+  display: block;
+  width: 50%;
+  max-width: 500px;
+  font-size: 30px;
+  /*line-height: 1.5px;*/
+  box-shadow: 1px 5px 25px rgba(0,0,0,0.45); 
+  border-radius: 5px ;
+  margin: 5px;
+  border: 5px outset #3f8c4c;
+}
+.containertigo2{
+  margin: 5px;
+  padding: 20px;
+  padding-bottom: 20px;
+  display: block;
+  width: 50%;
+  max-width: 500px;
+  font-size: 30px;
+  /*line-height: 1.5px;*/
+  box-shadow: 1px 5px 25px rgba(0,0,0,0.45); 
+  border-radius: 5px ;
+  margin: 5px;
+  border: 5px outset #0e51ab;
+}
+.tittigo{
+  text-align: center;
+  padding:0px;
+  font-family: 'Unica One', cursive;
+  font-size: 30px;
+  color: #002bc7;
+  line-height: 30px;
+}
+
+div.galleryw{
+  width: 80%;
+}
+div.galleryw img{
+  width: 80%;
+  height: auto;
+}
+
+div.galleryt{
+  width: 60%;
+}
+div.galleryt img{
+  width: 100%;
+  height: auto;
+}
+.titwhat{
+  text-align: center;
+  padding:0px;
+  font-family: 'Unica One', cursive;
+  font-size: 40px;
+  color: #467563;
+  line-height: 30px;
+}
+.espacioprueba{
+  padding: 1px;
+  background: #000000;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    background: #000;
+
+
+}
+
+.container-footer-all{
+    width: 60%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;/*pues cabiarlo a space between o center*/
+    box-sizing: border-box;
+}
+
+.colum1{
+    max-width: 400px;
+    /*aqiuupadding: 20px;*/
+}
+
+.colum1 h5{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Unica One', cursive;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h5{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Unica One', cursive;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    color: #fff;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row:hover{
+   animation: 1s ms 1;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.colum3{
+    max-width:400px;
+}
+
+.colum3 h5{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Unica One', cursive;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 15px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #C7C7C7;
+
+}
+
+.container-footer{
+    width: 100%;  
+    background: #000;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+ 
+ }
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.copyright{
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.information{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.information a{
+    text-decoration: none;
+    color: #fff;
+}
+.information:hover{
+   animation: 1s ms 1;
+}
+
+@media (max-width: 700px){
+
+    .container-body{
+        flex-wrap: wrap;
+        display: table;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+  }
+}
+
+
